@@ -1,0 +1,48 @@
+# 虚拟环境
+sec_extractor_venv/
+venv/
+env/
+*.env
+
+# Python缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 日志和媒体文件
+logs/
+media/
+*.log
+
+# 数据库
+*.sqlite3
+*.db
+
+# 静态文件
+staticfiles/
+static/admin/
+static/rest_framework/
+
+# IDE相关
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# 测试覆盖
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 依赖锁定
+pip-lock.txt
+
+# 环境配置
+.env
+
+# Docker
+.dockerignore
+docker-compose.override.yml
